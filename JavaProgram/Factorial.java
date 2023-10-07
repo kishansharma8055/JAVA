@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Q.1 factorial
 class Factorial {
 
     public static void FactorialFun(int a) {
@@ -20,3 +21,22 @@ class Factorial {
     }
 
 }
+
+
+// Q.2 Geometric 
+public class Geometric {
+    public static void main(String[] args) {
+        int a, b = 0;
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter a Number");
+        a = obj.nextInt();
+        while (b == a) {
+            Double result = Math.pow(b, a); // power function kya hoga
+            System.out.println(result);
+            ++b;
+        }
+
+        obj.close();
+    }
+}
+
