@@ -25,10 +25,10 @@ class TreeInfo {
     }
 }
 
-class BinaryTree {
+class Tree_BinaryTree2 {
     public TreeNode root;
 
-    public BinaryTree() {
+    public Tree_BinaryTree2() {
         root = null;
     }
 
@@ -203,7 +203,7 @@ class BinaryTree {
 
 class Main {
     public static void main(String[] args) {
-        BinaryTree tree = new BinaryTree();
+        Tree_BinaryTree2 tree = new Tree_BinaryTree2();
         int nodes[] = { 5, 2, 8, 1, 4, 7, 10, 3, 6, 9, 11 };
         int nodes2[] = { 12, 13, 11 };
 
